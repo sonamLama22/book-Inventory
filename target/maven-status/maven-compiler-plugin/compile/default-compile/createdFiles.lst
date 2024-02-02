@@ -1,0 +1,6 @@
+com\bfs45\bookmanagement\controller\LoginServlet.class
+com\bfs45\bookmanagement\controller\RegisterServlet.class
+com\bfs45\bookmanagement\service\UserRegistryService.class
+com\bfs45\bookmanagement\util\DBUtil.class
+com\bfs45\bookmanagement\dao\UserDao.class
+com\bfs45\bookmanagement\model\User.class
