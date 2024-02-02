@@ -22,9 +22,7 @@ public class LoginServlet  extends HttpServlet{
 		//access data using 'req' object of HttpServletRequest interface.
 		String password = req.getParameter("password"); // get password
 		String userId = req.getParameter("userid");
-		
-		System.out.println("userId "+ userId);
-		System.out.println("password "+ password);
+
 		
 		User user = new User(userId, password);
 		LoginValidationService result= new LoginValidationService();
